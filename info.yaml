@@ -21,13 +21,13 @@ project:
 pinout:
   # Inputs
   ui[0]: "count_en"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[1]: "mult_en"
+  ui[2]: "m_a0"
+  ui[3]: "m_a1"
+  ui[4]: "m_a2"
+  ui[5]: "m_b0"
+  ui[6]: "m_b1"
+  ui[7]: "m_b2"
 
   # Outputs
   uo[0]: "b0"
