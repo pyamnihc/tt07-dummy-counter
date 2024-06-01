@@ -79,7 +79,7 @@ module tt_um_pyamnihc_dummy_counter (
   assign product = m_a * m_b * (counter_r[9:0] + 1'b1);
 
   assign uo_out = mult_en_in ? product[7:0] : counter_r[7:0];
-  assign uio_out = mult_en_in ? product[15:0] : counter_r[15:8];
+  assign uio_out = mult_en_in ? product[15:8] : counter_r[15:8];
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, uio_in};
