@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_pyamnihc_dummy_counter"
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -30,24 +30,24 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "b0"
+  uo[1]: "b1"
+  uo[2]: "b2"
+  uo[3]: "b3"
+  uo[4]: "b4"
+  uo[5]: "b5"
+  uo[6]: "b6"
+  uo[7]: "b7"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "b8"
+  uio[1]: "b9"
+  uio[2]: "b10"
+  uio[3]: "b11"
+  uio[4]: "b12"
+  uio[5]: "b13"
+  uio[6]: "b14"
+  uio[7]: "b15"
 
 # Do not change!
 yaml_version: 6
